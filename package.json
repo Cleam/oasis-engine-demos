@@ -7,6 +7,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@oasis-engine/controls": "^0.6.6",
+    "@oasis-engine/physics-physx": "^0.6.6",
+    "oasis-engine": "^0.6.6",
+    "pinia": "^2.0.9",
     "vue": "^3.2.25"
   },
   "devDependencies": {
