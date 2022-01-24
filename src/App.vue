@@ -1,25 +1,14 @@
 <template>
   <div class="loading" v-if="store.loading">loading...</div>
-  <canvas id="canvas"></canvas>
+  <D01></D01>
 </template>
 
 <script setup lang="ts">
 import { useStore } from './store';
-import { initOasis } from './oasis/d1';
+import D01 from './components/d01/index.vue';
 const store = useStore();
-initOasis();
 </script>
 <style>
-#canvas {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-}
 .loading {
   position: fixed;
   top: 0;

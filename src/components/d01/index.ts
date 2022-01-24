@@ -15,7 +15,7 @@ import {
   WebGLEngine,
 } from 'oasis-engine';
 import { OrbitControl } from '@oasis-engine/controls';
-import { useStore } from '../store';
+import { useStore } from '../../store';
 class Oasis {
   init() {
     const store = useStore();
